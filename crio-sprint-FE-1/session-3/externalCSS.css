@@ -1,0 +1,18 @@
+h1 {
+  /* element selector */
+  color: red;
+}
+
+#book1 {
+  /* id selector 
+  can be applied to single element with this unique id */
+  background-color: sandybrown;
+}
+
+.famous {
+  /* class selector 
+  can be applied to multiple element with same class */
+
+  background-color: greenyellow;
+  color: red;
+}

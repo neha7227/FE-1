@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design</title>
+  </head>
+  <style>
+    body {
+      background-color: red;
+    }
+    @media (max-width: 600px) {
+      body {
+        background-color: green;
+      }
+    }
+
+    @media (max-width: 300px) {
+      body {
+        background-color: blue;
+      }
+    }
+  </style>
+  <body>
+    <h1>Resize the browser window</h1>
+    <p>
+      If width of this document is more than 600 pixels, the background-color is
+      "red".
+    </p>
+    <p>
+      If width of this document is more than 300 pixels, the background-color is
+      "green" otherwise its blue".
+    </p>
+  </body>
+</html>

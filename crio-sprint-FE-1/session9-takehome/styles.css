@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+.sidebar {
+  border-top: 0.5rem;
+  border-right: 0.5rem;
+  border-bottom: 0.5rem;
+  /* border-radius: 20%; */
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-color: #dadada;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-width: thin;
+  margin: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 10rem;
+  height: 80vh;
+  /* text-transform: uppercase; */
+}
+
+#sb-heading {
+  color: blueviolet;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sb-item {
+  /* font-size: 12px; */
+  padding: 0.5rem;
+  line-height: 16px;
+}
+
+.sb-item:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
